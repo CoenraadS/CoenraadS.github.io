@@ -2,12 +2,12 @@
 *2023/11/05 - Coenraad Stijne*  
 
 #### Summary:  
-`MSTest` and `NUnit` support greater levels of *Parallelism Granularity* then `xUnit`.  
-When `NUnit` is configured to use `Method`,  the documentation recommends changing the `Test Class` instantiation behavior from `Single Instance` to `Instance Per Test` for thread safety.
+- `MSTest` and `NUnit` support greater levels of *Parallelism Granularity* then `xUnit`.  
+- When `NUnit` is configured to use `Method`,  the documentation recommends changing the `Test Class` instantiation behavior from `Single Instance` to `Instance Per Test` for thread safety.
 
 #### Personal Learnings:
 
-`MSTest` and `NUnit` both support `ctor/dispose` pattern to `setup/teardown` tests, similar to `xUnit`.
+- `MSTest` and `NUnit` both support `ctor/dispose` pattern to `setup/teardown` tests, similar to `xUnit`.
 
 #### [Code Examples](https://github.com/CoenraadS/CoenraadS.github.io/tree/main/0/src)
 
@@ -45,7 +45,7 @@ This will parallelize all methods, including `DataRow` and `DynamicData`.
 [FixtureLifeCycle Documentation](https://docs.nunit.org/articles/nunit/writing-tests/attributes/fixturelifecycle.html)
 
 The `Parallelizable` attribute can be set to configure the default strategy.  
-`NUnit` also recommends to set the `FixtureLifeCycle` attribute
+`NUnit` also recommends to set the `FixtureLifeCycle` attribute.
 
 ```csharp
 [assembly: Parallelizable(ParallelScope.Children)]
@@ -72,7 +72,7 @@ This is to ensure that fields/properties of the class will not be accessed by mu
 
 ## Configuring xUnit
 
-- `xUnit` does not support method level parallelism out of the box
+- `xUnit` does not support method level parallelism natively
 - It is being considered for `v3`, see the [Roadmap](https://github.com/xunit/xunit/issues/2133)
 - There is a community solution, see [https://github.com/xunit/xunit/issues/1986#issuecomment-1028299919](https://github.com/xunit/xunit/issues/1986#issuecomment-1028299919)
-- Since it is not officially supported, it will not be covered in this blog
+- Since it is not officially supported, it will not be covered in this post

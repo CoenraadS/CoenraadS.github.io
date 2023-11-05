@@ -1,9 +1,14 @@
 # .NET Unit Test Framework Comparison - Enum Iteration
 *2023/11/05 - Coenraad Stijne*  
 
+*Note: A follow up post describes how to reimplement `NUnit's` `[ValuesAttribute]` in `MSTest` and `xUnit`.*  
+*See [.Net Unit Test Framework Comparison - Combinatorial Parameters](../2/README.md).*
+
+---
+
 #### Summary:  
-`NUnit` is the only library that support `Enum` iteration out of the box.  
-For `MSTest` and `xUnit`, we can create our own custom attributes.
+- `NUnit` is the only library that support `Enum` iteration natively.  
+- For `MSTest` and `xUnit`, we can create our own custom attributes.
 
 #### [Code Examples](https://github.com/CoenraadS/CoenraadS.github.io/tree/main/1/src)
 
