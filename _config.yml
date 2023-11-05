@@ -1,2 +1,5 @@
 name: "Coenraad Stijne"
 title: null
+exclude:
+  - "**/src"
+  - ".gitignore"
