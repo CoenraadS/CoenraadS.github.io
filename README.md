@@ -4,6 +4,7 @@
 
 | Date       | Title                                                                          |
 | ---------- | ------------------------------------------------------------------------------ |
+| 2023/11/07 | [Git - Apply patch outside of repository](./6/README.md) |
 | 2023/11/07 | [Git - Restore repository to fresh checkout state](./5/README.md) |
 | 2023/11/07 | [.NET Unit Test - Mock Concrete Classes using Fody](./4/README.md) |
 | 2023/11/07 | [.NET Unit Test - Internal Interfaces](./3/README.md) |
