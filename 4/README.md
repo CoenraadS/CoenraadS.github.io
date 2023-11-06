@@ -26,16 +26,16 @@ To enable `Fody`, add the following to the *Test* `.csproj`.
 We configure it to only run in `Debug` configurations, so that `Release` builds remain unaffected.
 
 ```xml
-</PropertyGroup>
+<PropertyGroup>
+  
+  ...
 
-    ...
-
-	<WeaverConfiguration Condition="'$(Configuration)' == 'Debug'">
-		<Weavers>
-			<Virtuosity />
-			<EmptyConstructor />
-		</Weavers>
-	</WeaverConfiguration>
+  <WeaverConfiguration Condition="'$(Configuration)' == 'Debug'">
+    <Weavers>
+      <Virtuosity />
+      <EmptyConstructor />
+    </Weavers>
+  </WeaverConfiguration>
 </PropertyGroup>
 ```
 
