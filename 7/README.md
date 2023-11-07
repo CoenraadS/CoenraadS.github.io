@@ -17,7 +17,7 @@ A more useful test generator, is one that is aware of the dependencies and provi
 
 ## Example File
 
-To test the output of both extensions, I used the following setup:
+To test the output of both extensions, the following class will be used to generate tests from:
 
 ```csharp
 public interface IFooService

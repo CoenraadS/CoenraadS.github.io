@@ -4,6 +4,7 @@
 
 | Date       | Title                                                                           |
 | ---------- | ------------------------------------------------------------------------------- |
+| 2023/11/11 | [Bruno (Postman Alternative) - Share a variable across requests](./8/README.md)                  |
 | 2023/11/07 | [.NET Unit Test Generation Comparison - VS2022](./7/README.md)                  |
 | 2023/11/07 | [Git - Apply patch outside of repository](./6/README.md)                        |
 | 2023/11/07 | [Git - Restore repository to fresh checkout state](./5/README.md)               |
