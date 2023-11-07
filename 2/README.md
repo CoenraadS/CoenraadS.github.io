@@ -1,4 +1,4 @@
-# .Net Unit Test Framework Comparison - Combinatorial Parameters
+# .NET Unit Test Framework Comparison - Combinatorial Parameters
 *2023/11/05 - Coenraad Stijne*  
 
 #### Summary:  

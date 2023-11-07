@@ -2,7 +2,7 @@
 *2023/11/05 - Coenraad Stijne*  
 
 *Note: A follow up post describes how to reimplement `NUnit's` `[ValuesAttribute]` in `MSTest` and `xUnit`.*  
-*See [.Net Unit Test Framework Comparison - Combinatorial Parameters](../2/README.md).*
+*See [.NET Unit Test Framework Comparison - Combinatorial Parameters](../2/README.md).*
 
 ---
 

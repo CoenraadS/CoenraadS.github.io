@@ -1,4 +1,4 @@
-# .Net Unit Test - Internal Interfaces
+# .NET Unit Test - Internal Interfaces
 *2023/11/07 - Coenraad Stijne*  
 
 Often during Unit Testing, internal interfaces are required to be visible to the test project.
